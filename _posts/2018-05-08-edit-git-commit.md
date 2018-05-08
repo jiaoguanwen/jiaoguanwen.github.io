@@ -11,7 +11,7 @@ categories: git
 
 如果还没有push到服务器，只是本地进行了commit，并且没有进行新的commit，只需要git commit --amend;
 
-如果进行了新的commit，只需要git reset --soft xxx （xxx有问题那次提交的commit id），然后在进行git commit就行，不过所有后面的提交都成为了一次提交;
+如果进行了新的commit，只需要git reset --soft xxx （xxx有问题那次提交的commit id，该id之前的commit没有了，但保留该commit，soft的话，文件不会回退，而hard会回退文件），然后在进行git commit就行，不过所有后面的提交都成为了一次提交;
 
 如果想保持每次提交独立的话，使用git checkout -b tmp ^xxx
 git cherry-pick xxx

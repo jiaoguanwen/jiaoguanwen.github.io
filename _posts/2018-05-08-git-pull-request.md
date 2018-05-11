@@ -28,3 +28,8 @@ some coding...
 `git branch -D xxx` 删除本地分支，D强制删除，d不强制
 
 `git push origin --delete xxx` 删除远程分支
+
+
+### 添加于2018年5月11日
+
+其实你提交的pull request在review，和merge之后，github会在网页上给你提供一个安全删除的选项，就可以删除这个分支了，然后你在自己删除自己本地的分支就可以了，不需要自己去推一个删除远程分支的指令

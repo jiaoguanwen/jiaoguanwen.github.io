@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "git pull request"
+title:  "update forked project"
 date:   2018-08-27 12:00:00 +0800
 categories: git
 ---
